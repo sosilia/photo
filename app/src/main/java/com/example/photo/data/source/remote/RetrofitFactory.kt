@@ -1,4 +1,4 @@
-package com.example.photo.data.remote
+package com.example.photo.data.source.remote
 
 import com.google.gson.FieldNamingPolicy
 import com.google.gson.Gson

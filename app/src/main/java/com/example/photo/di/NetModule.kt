@@ -1,24 +1,19 @@
 package com.example.photo.di
 
-import com.example.photo.data.remote.OkHttpClientFactory
-import com.example.photo.data.remote.PhotoService
-import com.example.photo.data.remote.RetrofitFactory
-import com.google.gson.FieldNamingPolicy
-import com.google.gson.Gson
+import com.example.photo.data.source.remote.OkHttpClientFactory
+import com.example.photo.data.source.remote.service.PhotoService
+import com.example.photo.data.source.remote.RetrofitFactory
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
-import dagger.hilt.android.components.ActivityComponent
 import dagger.hilt.components.SingletonComponent
 import okhttp3.OkHttpClient
-import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-class NetModule {
+object NetModule {
     @Singleton
     @Provides
     fun provideOkHttpClient(): OkHttpClient {

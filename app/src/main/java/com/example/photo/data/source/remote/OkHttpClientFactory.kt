@@ -1,4 +1,4 @@
-package com.example.photo.data.remote
+package com.example.photo.data.source.remote
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/action_go_to_photo_list"
+    android:title="@string/main_menu_photo_list"
+    android:icon="@drawable/ic_launcher_foreground" />
+  <item android:id="@+id/action_go_to_bookmark_list"
+    android:title="@string/main_menu_photo_bookmark_list"
+    android:icon="@drawable/ic_launcher_foreground" />
+</menu>
